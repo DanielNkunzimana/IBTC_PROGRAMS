@@ -1,0 +1,122 @@
+body:hover {
+    filter: brightness(40%);
+    transition: filter 0.3s ease;
+    background-color: #7e7f81; /* Light blue */
+  }
+
+  /* The message that stays on top */
+.hover-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    border-radius: 15px;
+    text-align: center;
+    pointer-events: none; /* So it doesn’t block hover */
+  }
+  
+.output{
+    text-align: center;
+    background-image: url("images/resto7.jpg");
+    border-radius: 20px;
+    height: 400px;
+
+}
+nav ul li a{
+    display: inline-flex;
+    padding: 10px 15px;     
+   /* border: 2px solid #333; */ 
+    background-color: #f0f0f0; 
+    text-decoration: none;   
+    color: #000;            
+    border-radius: 5px; 
+}
+nav ul{
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+section{
+    justify-content: center;
+    margin: 40px;
+    padding: 20px;
+    margin-left: 67px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(185, 196, 196);
+    border-radius: 10px;
+    height: 140px;
+}
+.pcs{
+    background-color: rgb(185, 196, 196);
+    height: 500px;
+}
+.pcs img{
+    margin-bottom: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+}
+
+
+.pcs {
+    text-align: center; /* Center all contents */
+}
+
+.pcs img {
+    margin: 10px;
+    vertical-align: top;
+}
+
+.pcs .end-image {
+    display: flex-inline;        
+    margin: 30px auto 0;   
+}
+
+.image-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .image-box .img {
+    width: 700px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 50px;
+  }
+  
+  .description {
+    max-width: 400px;
+  }
+  
+  .description h3 {
+    margin: 0;
+  }
+  
+  .description button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.logo img{
+    border-radius: 330px;
+    
+} 

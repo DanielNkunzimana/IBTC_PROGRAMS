@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f1f1f1;
+        }
+        form {
+            text-align: left;
+            margin: 100px;
+            padding: 10px;
+            margin-left: 400px;
+            margin-right: 400px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+        }
+        button {
+            background-color: blue;
+            width: 20%;
+            padding: 5px;
+            margin: 5px;
+            margin-left: 175px;
+            margin-right: 175px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        input {
+            margin: 5px;
+            padding: 10px;
+            width: 90%;
+            border-radius: 10px;
+            background-color: rgb(162, 207, 236);
+        }
+    </style>
+</head>
+<body>
+    <form action="/sign up" method="post">
+        <h1>Sign up</h1>
+        <label id="email"><strong>Emali:</strong></label><br>
+        <input type="email" id="email" name="email"><br>
+        <label id="password"><strong>Password:</strong></label><br>
+        <input type="password" id="password" name="password"><br>
+        <label id="password"><strong>Confirm Password:</strong></label><br>
+        <input type="password" id="password" name="password"><br>
+        <label id="image"><strong>Image:</strong></label><br>
+        <input type="file" id="image" name="image"><br>
+        <button type="sign-up" value="sign-up"><strong>Sign up</strong></button><br>
+        <p>Already have an account? <a href="index.html">Login</a></p>
+    </form>
+</body>
+</html>
