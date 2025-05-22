@@ -36,7 +36,7 @@ $conn = mysqli_query($data, $sql);
             <td><?php echo $row['age']; ?></td>
             <td><?php echo $row['product_name']; ?></td>
             <td><?php echo $row['price']; ?></td>
-            <td><a href="update.php?id=<?php echo $row['age'];?>"></a>Update</td>
+            <td><a href="update1.php?id=<?php echo $row['id'];?>">Update</a></td>
             <td><a href="delete.php?id=<?php echo $row['id'];?>">Delete</a></td>
             
         </tr>
