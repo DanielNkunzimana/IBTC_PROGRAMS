@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f1f1f1;
+        }
+        form {
+            text-align: left;
+            margin: 100px;
+            padding: 10px;
+            margin-left: 400px;
+            margin-right: 400px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+        }
+        button {
+            background-color: blue;
+            width: 20%;
+            padding: 5px;
+            margin: 5px;
+            margin-left: 175px;
+            margin-right: 175px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        input {
+            margin: 5px;
+            padding: 10px;
+            width: 90%;
+            border-radius: 10px;
+            background-color: rgb(162, 207, 236);
+        }
+    </style>
+</head>
+<body>
+    <form action="login.php" method="post">
+        <h1>Login form</h1>
+        <label>full name</label>
+        <input type="name" name="username">
+        <label>Password</label>
+        <input type="password" name="password">
+        <button type="login" name="login" value="login"><strong>login</strong></button><br>
+        <!--<p>Already have an account? <a href="index.html">Login</a></p>-->
+    </form>
+</body>
+</html>
