@@ -8,11 +8,11 @@ $data = mysqli_connect("$server", "$username", "$password", "$db");
 if(isset($_POST['login'])){
     $username = $_POST['username'];
     $password = $_POSST['password'];
-    $sql =  "SELECT * FROM `login` where `username`='$username' and `password`='$password'";
+    $sql =  "SELECT * FROM `login` WHERE `username`='$username' AND `password`='$password'";
     $res = mysqli_query($data, $sql);
-    if(mysqli_num_rows($res)==1){
+    if(mysqli_num_rows($res) > 0){
         $_SESSION['user']=$username;
-        $_SESSION['password']=$password;
+        
         echo"you are welcome back benn";
         header("location:/IBTC_PROGRAMS/IBTC_PROGRAMS/my_app/data.php");
     }else{

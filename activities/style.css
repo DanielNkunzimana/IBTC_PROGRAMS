@@ -1,0 +1,254 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.or {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.socials button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google {
+  color: #ea4335;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.link {
+  text-align: right;
+  font-size: 12px;
+}
+
+.signup {
+  text-align: center;
+  margin-top: 20px;
+}
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS rules for desktops */
+  body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.or {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.socials button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google {
+  color: #ea4335;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.link {
+  text-align: right;
+  font-size: 12px;
+}
+
+.signup {
+  text-align: center;
+  margin-top: 20px;
+}
+}
+
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+  /* CSS rules for phones */
+  body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #333;
+  }
+
+  .or {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .socials button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .google {
+    color: #ea4335;
+  }
+
+  .facebook {
+    color: #3b5998;
+  }
+
+  .link {
+    text-align: right;
+    font-size: 12px;
+  }
+
+  .signup {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .header-image {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+  }
+}
