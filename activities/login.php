@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $host = "localhost";
 $user = "root";
 $pass = "";
@@ -20,7 +20,10 @@ if (isset($_POST['login'])) {
     $result = $conn ->query($sql);
     
     if ($result->num_rows >0) {
-        
+
+            
+            
+            $_SESSION['user'] = $email;
 
             header("Location: dashboard.php"); 
             
